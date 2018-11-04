@@ -1,4 +1,5 @@
 #include <QCoreApplication>
+#include <QDebug>
 #include <QDir>
 #include <QFile>
 #include <QList>
@@ -191,10 +192,11 @@ int main(int argc, char *argv[])
     int fileCount = dataFiles.length();
     for (int fileIndex = 0; fileIndex < fileCount; fileIndex++)
     {
-        QString filePath = dataFiles.at(fileIndex);
-        QFile file(filePath);
+        QString fileName = dataFiles.at(fileIndex);
+        QFile file(dataDir.absoluteFilePath(fileName));
         if (!file.open(QFile::ReadOnly | QFile::Text))
         {
+            qDebug() << fileName << " not found!" << endl;
             exit(0);
         }
 
@@ -213,6 +215,7 @@ int main(int argc, char *argv[])
 
         QString outputPath(QDir::homePath() + QDir::separator() + "Data");
         writeLayers(layers, outputPath);
+        qDebug() << "Layers exported." << endl;
     }
 
     //return a.exec();
