@@ -1,0 +1,20 @@
+name:quarry
+filter:"fclass" = 'quarry'
+renderer:fill
+alpha:1
+	symbol-class:PointPatternFill
+	pass:0
+		displacement_x:1.2
+		displacement_x_map_unit_scale:0,0,0,0,0,0
+		displacement_x_unit:MM
+		displacement_y:1
+		displacement_y_map_unit_scale:0,0,0,0,0,0
+		displacement_y_unit:MM
+		distance_x:3
+		distance_x_map_unit_scale:0,0,0,0,0,0
+		distance_x_unit:MM
+		distance_y:3
+		distance_y_map_unit_scale:0,0,0,0,0,0
+		distance_y_unit:MM
+		outline_width_map_unit_scale:0,0,0,0,0,0
+		outline_width_unit:MM

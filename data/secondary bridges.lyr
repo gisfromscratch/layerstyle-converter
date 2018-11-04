@@ -1,0 +1,38 @@
+name:secondary bridges
+filter:"fclass" IN ('secondary','secondary_link') AND  "bridge" IN ('True', '1', 'yes')
+renderer:line
+alpha:1
+	symbol-class:SimpleLine
+	pass:7
+		capstyle:flat
+		customdash:5;2
+		customdash_map_unit_scale:0,0,0,0,0,0
+		customdash_unit:MapUnit
+		draw_inside_polygon:0
+		joinstyle:round
+		line_color:100,100,100,255
+		line_style:solid
+		line_width:6.6
+		line_width_unit:MapUnit
+		offset:0
+		offset_map_unit_scale:0,0,0,0,0,0
+		offset_unit:MapUnit
+		use_custom_dash:0
+		width_map_unit_scale:0,0,0,0,0,0
+	symbol-class:SimpleLine
+	pass:8
+		capstyle:round
+		customdash:5;2
+		customdash_map_unit_scale:0,0,0,0,0,0
+		customdash_unit:MapUnit
+		draw_inside_polygon:0
+		joinstyle:round
+		line_color:255,255,255,255
+		line_style:solid
+		line_width:5
+		line_width_unit:MapUnit
+		offset:0
+		offset_map_unit_scale:0,0,0,0,0,0
+		offset_unit:MapUnit
+		use_custom_dash:0
+		width_map_unit_scale:0,0,0,0,0,0

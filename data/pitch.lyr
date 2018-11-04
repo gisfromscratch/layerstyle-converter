@@ -1,0 +1,34 @@
+name:pitch
+filter:"fclass"  =  'pitch'
+renderer:fill
+alpha:1
+	symbol-class:SimpleFill
+	pass:0
+		border_width_map_unit_scale:0,0,0,0,0,0
+		color:184,215,169,255
+		joinstyle:bevel
+		offset:0,0
+		offset_map_unit_scale:0,0,0,0,0,0
+		offset_unit:MM
+		outline_color:255,255,255,255
+		outline_style:no
+		outline_width:0.2
+		outline_width_unit:MM
+		style:solid
+	symbol-class:SimpleLine
+	pass:1
+		capstyle:flat
+		customdash:5;2
+		customdash_map_unit_scale:0,0,0,0,0,0
+		customdash_unit:MM
+		draw_inside_polygon:0
+		joinstyle:round
+		line_color:255,255,255,255
+		line_style:solid
+		line_width:0.6
+		line_width_unit:MapUnit
+		offset:3.2
+		offset_map_unit_scale:0,0,0,0,0,0
+		offset_unit:MapUnit
+		use_custom_dash:0
+		width_map_unit_scale:0,0,0,0,0,0

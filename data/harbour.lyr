@@ -1,0 +1,17 @@
+name:harbour
+filter:"fclass" = 'harbour'
+renderer:fill
+alpha:1
+	symbol-class:SimpleFill
+	pass:1
+		border_width_map_unit_scale:0,0,0,0,0,0
+		color:255,255,255,255
+		joinstyle:bevel
+		offset:0,0
+		offset_map_unit_scale:0,0,0,0,0,0
+		offset_unit:MM
+		outline_color:85,85,255,255
+		outline_style:dash
+		outline_width:0.2
+		outline_width_unit:MM
+		style:no

@@ -1,0 +1,19 @@
+name:Shadow 3
+filter:
+min-scale:1000
+max-scale:5000
+renderer:fill
+alpha:0.498039
+	symbol-class:SimpleFill
+	pass:0
+		border_width_map_unit_scale:0,0,0,0,0,0
+		color:194,189,181,255
+		joinstyle:bevel
+		offset:3.5,3.5
+		offset_map_unit_scale:0,0,0,0,0,0
+		offset_unit:MM
+		outline_color:0,0,0,255
+		outline_style:no
+		outline_width:0.26
+		outline_width_unit:MM
+		style:solid

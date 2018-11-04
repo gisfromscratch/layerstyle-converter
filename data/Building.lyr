@@ -1,0 +1,17 @@
+name:Building
+filter:
+renderer:fill
+alpha:1
+	symbol-class:SimpleFill
+	pass:3
+		border_width_map_unit_scale:0,0,0,0,0,0
+		color:230,222,211,255
+		joinstyle:bevel
+		offset:0,0
+		offset_map_unit_scale:0,0,0,0,0,0
+		offset_unit:MM
+		outline_color:213,206,197,255
+		outline_style:solid
+		outline_width:0.2
+		outline_width_unit:MM
+		style:solid
